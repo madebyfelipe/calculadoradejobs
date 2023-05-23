@@ -1,2 +1,2 @@
-# calculadoradejobs
-Calculadora para precificação de trabalhos freelancer.
+# Calculadora de Jobs by /madebyfelipe
+### WORK IN PROGRESS!
