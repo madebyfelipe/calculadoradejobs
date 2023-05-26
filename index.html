@@ -10,7 +10,7 @@
 <body>
     <main class="container">
         <section class="left">
-                <img src="assets/img/wallet.svg" alt="">
+                <img src="assets/img/wallet.svg" class="img" "alt="">
         </section>
         
             <section id="right"                
@@ -23,8 +23,8 @@
                         </label>
 
                         <div class="inputfield">
+                            <span class="left">R$</span>
                             <input type="number" min="1" step="any" id="hour" name="hour" required>
-                            <span>R$</span>
                         </div>
                     </div>
                     
@@ -34,8 +34,8 @@
                         </label>
 
                         <div class="inputfield">
+                            <span class="left">R$</span>
                             <input type="number" min="1" max="24" id="time" name="time" required>
-                            <span>R$</span>
                         </div>
                     </div>
                     
@@ -46,12 +46,12 @@
                         <div class="inputside-container">
                             <div class="inputfield">
                                 <input type="number" min="1" max="24" id="time" name="time" required>
-                                <span>horas/dia</span>
+                                <span class="right">h/d</span>
                             </div>
                             
                             <div class="inputfield">
                                 <input type="number" min="1" max="24" id="time" name="time" required>
-                                <span>dias/semana</span>
+                                <span class="right">d/w</span>
                             </div>
                         </div>
                     </div>
@@ -61,11 +61,11 @@
                     </button>
                 </form>
                 
-                <div id="infos" class="hidden">
+                <div id="infos" class="">
                     <div class="result">
                         <div class="data">
-                            <span>Valor sugerido</span>
                             <span id="value">100</span>
+                            <span>Valor sugerido</span>
                         </div>
                         <div class="description">
                             <span class="description"></span>
