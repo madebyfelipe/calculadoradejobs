@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Jobs</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main class="container">
+        <section class="left">
+                <img src="assets/img/designer.svg" alt="">
+        </section>
+        
+            <section id="right"                
+                <form id="calculadora">
+                    <h1 class="title">Calculadora de Jobs</h1>
+
+                    <div class="inputbox">                   
+                        <label for="hour">
+                            Preço/Hora
+                        </label>
+
+                        <div class="inputfield">
+                            <input type="number" min="1" step="any" id="hour" name="hour" required>
+                            <span>R$</span>
+                        </div>
+                    </div>
+                    
+                    <div class="inputbox">                   
+                        <label for="horario">
+                            Horas trabalhadas por dia
+                        </label>
+
+                        <div class="inputfield">
+                            <input type="number" min="1" max="24" id="time" name="time" required>
+                            <span>horas</span>
+                        </div>
+                    </div>
+                    
+                    <div class="inputbox">                   
+                        <label for="horario">
+                            Horas trabalhadas por dia
+                        </label>
+                        <div class="inputside-container">
+                            <div class="inputfield">
+                                <input type="number" min="1" max="24" id="time" name="time" required>
+                                <span>dias</span>
+                            </div>
+                            
+                            <div class="inputfield">
+                                <input type="number" min="1" max="24" id="time" name="time" required>
+                                <span>horas</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="calculate">
+                        Calcular
+                    </button>
+                </form>
+                
+                <div id="infos" class="hidden">
+                    <div class="result">
+                        <div class="data">
+                            <span>Valor sugerido</span>
+                            <span id="value">100</span>
+                        </div>
+                        <div class="description">
+                            <span class="description"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+</body>
+</html>
